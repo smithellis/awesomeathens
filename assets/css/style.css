@@ -369,6 +369,25 @@ h1, h2, h3, h4, h5, h6 {
 .portfolio {
 	background-image: url(../img/portfolio-sep.jpg);
 }
+#videowrap .proc:hover {
+	background-color: #eee;
+	border-bottom: solid 2px #2f2f2f
+}
+
+#videowrap i {
+	font-size: 50px;
+}
+#videowrap {
+	display: block;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+#videowrap h1 {
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 50px;
+}
 
 /* Service Wrap */
 #servicewrap {
@@ -487,4 +506,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .desc {
 	margin-top: 25px;
+}
+
+/* Garbage? */
+@media (max-width: 1199px) {
+.name img {
+margin: 0 auto;
+}
 }
